@@ -2,7 +2,7 @@
 
 ADRs are automatically published to our Log4brains architecture knowledge base:
 
-🔗 **<http://INSERT-YOUR-LOG4BRAINS-URL>**
+🔗 **<http://commanded.github.io/adr>**
 
 Please use this link to browse them.
 
@@ -11,21 +11,22 @@ Please use this link to browse them.
 If not already done, install Log4brains:
 
 ```bash
-npm install -g log4brains
+npm install
 ```
 
 To preview the knowledge base locally, run:
 
 ```bash
-log4brains preview
+npx log4brains preview
 ```
 
-In preview mode, the Hot Reload feature is enabled: any change you make to a markdown file is applied live in the UI.
+In preview mode, the Hot Reload feature is enabled: any change you make to a
+markdown file is applied live in the UI.
 
 To create a new ADR interactively, run:
 
 ```bash
-log4brains adr new
+npx log4brains adr new
 ```
 
 ## More information
